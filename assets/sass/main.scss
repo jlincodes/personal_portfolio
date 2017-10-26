@@ -206,14 +206,14 @@
 			width: 100%;
 		}
 
-		&.avatar48 {
-			width: 48px;
-			height: 48px;
+		&.avatar60 {
+			width: 60px;
+			height: 60px;
 			background: #f00;
 
 			img {
-				width: 48px;
-				height: 48px;
+				width: 60px;
+				height: 60px;
 			}
 		}
 
@@ -510,7 +510,7 @@
 	#logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
-		min-height: 48px;
+		min-height: 60px;
 		cursor: default;
 
 		h1 {
