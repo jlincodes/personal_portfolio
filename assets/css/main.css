@@ -1706,16 +1706,16 @@
 			width: 100%;
 		}
 
-		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+		.image.avatar75 {
+			width: 75px;
+			height: 75px;
 			background: #f00;
 		}
 
-			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
-			}
+		.image.avatar75 img {
+			width: 75px;
+			height: 75px;
+		}
 
 		.image.fit {
 			display: block;
@@ -2183,7 +2183,8 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background: linear-gradient(#004092, #020202, transparent), url("../../images/pexels-photo-372462.jpeg") no-repeat center;
+				/* opacity: 0.6; */
 			}
 
 			#main > section.two {
