@@ -14,3 +14,16 @@ body {
   justify-content: space-between;
   background-color: lavender;
 }
+
+.profile-img {
+  background-color: lightgrey;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-img img {
+  width: 100%;
+  height: auto;
+}
