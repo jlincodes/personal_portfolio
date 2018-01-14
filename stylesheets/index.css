@@ -164,15 +164,16 @@ ul {
   text-align: center;
 }
 
+#social p {
+  margin: 25px 100px;
+}
+
 .social {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.social p {
-  margin: 0 100px;
-}
 
 .social a {
   text-decoration: none;
