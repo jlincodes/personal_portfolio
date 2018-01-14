@@ -62,9 +62,8 @@ header {
 
 header hr {
   border: 2px solid rgba(255,255,255,1);
-  width: 75%;
+  width: 55%;
   margin-left: 0;
-  /* text-align: left; */
 }
 
 .profile-img {
@@ -150,6 +149,34 @@ header hr {
     height: 800px;
 }
 
+#social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.8);
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#social a:hover {
+  color: rgba(255,255,255,1);
+  background: rgba(0,0,0,0.8);
+}
+
+.fab, .fas {
+  color: rgba(28, 0, 99, 0.9);
+  margin: 0 5px 0 5px;
+}
+
+.fab:hover, .fas:hover {
+  color: rgba(255,255,255,1);
+}
+
 
 @media screen and (max-width: 800px) {
   header {
@@ -176,6 +203,9 @@ header hr {
 }
 
 @media screen and (max-width: 480px) {
+  nav {
+    margin: 20px 35px 20px 20px;
+  }
   .header-text {
     max-width: 95%;
     text-align: center;
