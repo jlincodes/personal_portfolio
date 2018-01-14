@@ -41,7 +41,6 @@ section {
   grid-row: 3;
 }
 
-
 /* Nav Bar */
 
 nav {
@@ -52,6 +51,7 @@ nav {
   font-family: 'Allura', cursive;
   font-size: 48px;
   color: rgba(255,255,255,1);
+  margin: 15px 0 15px 0;
 }
 
 .nav-bar {
@@ -130,7 +130,7 @@ ul {
 
 .section-header {
   text-align: center;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 .section-header hr {
@@ -177,8 +177,9 @@ ul {
 
 .social a {
   text-decoration: none;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,0,1);
   margin: 5px;
+  padding: 5px;
   display: flex;
   align-items: center;
 }
@@ -193,8 +194,8 @@ ul {
   margin: 0 5px 0 5px;
 }
 
-.fab:hover, .fas:hover {
-  color: rgba(255,255,255,1);
+footer {
+  margin: 50px;
 }
 
 
