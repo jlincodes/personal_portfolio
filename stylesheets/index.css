@@ -4,6 +4,43 @@ body {
   background-color: rgba(225, 216, 255, 0.2);
 }
 
+section {
+  text-align: center;
+}
+
+/* About me & portfolio sections */
+.checkerboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 50px;
+}
+
+.one {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.three {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.four {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.five {
+  grid-column: 2;
+  grid-row: 3;
+}
+
 /* Nav Bar */
 
 nav {
@@ -14,6 +51,7 @@ nav {
   font-family: 'Allura', cursive;
   font-size: 48px;
   color: rgba(255,255,255,1);
+  margin: 15px 0 15px 0;
 }
 
 .nav-bar {
@@ -80,49 +118,24 @@ header hr {
   height: auto;
 }
 
+
+/* About me */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 /* Portfolio */
 
-.portfolio-header {
+.section-header {
   text-align: center;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
-.portfolio-header hr {
-  border: 2px solid lightgrey;
+.section-header hr {
+  border: 2px solid rgba(28, 0, 99, 0.9);
   width: 50%;
-  /* text-align: left; */
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-
-.checkerboard {
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 50px;
-}
-
-.one {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.two {
-  grid-column: 3;
-  grid-row: 1;
-}
-
-.three {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.four {
-  grid-column: 3;
-  grid-row: 2;
 }
 
 .proj-img-wrapper {
@@ -145,25 +158,33 @@ header hr {
   opacity: 0.5;
 }
 
-.contact {
-    height: 800px;
-}
+/* contact & social */
 
 #social {
+  text-align: center;
+}
+
+#social p {
+  margin: 25px 100px;
+}
+
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#social a {
+
+.social a {
   text-decoration: none;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,0,1);
   margin: 5px;
+  padding: 5px;
   display: flex;
   align-items: center;
 }
 
-#social a:hover {
+.social a:hover {
   color: rgba(255,255,255,1);
   background: rgba(0,0,0,0.8);
 }
@@ -173,8 +194,8 @@ header hr {
   margin: 0 5px 0 5px;
 }
 
-.fab:hover, .fas:hover {
-  color: rgba(255,255,255,1);
+footer {
+  margin: 50px;
 }
 
 
@@ -230,5 +251,11 @@ header hr {
   .proj-img-wrapper {
     width: 95%;
     margin: 0 0 30px 0;
+  }
+  #social {
+    margin: 0;
+  }
+  #social h2 {
+    margin-top: 0;
   }
 }
