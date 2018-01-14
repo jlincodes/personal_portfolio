@@ -36,6 +36,11 @@ section {
   grid-row: 2;
 }
 
+.five {
+  grid-column: 2;
+  grid-row: 3;
+}
+
 
 /* Nav Bar */
 
@@ -111,6 +116,14 @@ header hr {
 .profile-img img {
   width: 100%;
   height: auto;
+}
+
+
+/* About me */
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 /* Portfolio */
