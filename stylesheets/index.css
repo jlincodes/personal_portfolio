@@ -26,8 +26,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgrey;
-  height: 400px;
+  background: linear-gradient(to right, rgba(165, 165, 255, 0.6), rgba(44, 25, 255, 0.7));
+  height: 500px;
 }
 
 .header-text {
@@ -79,19 +79,40 @@ header hr {
   display: grid;
   grid-template-columns: repeat(11, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto)
-}
-
-.grid div {
-  text-align: center;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .checkerboard {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 30px;
+}
+.one {
+  grid-column: 2;
+  grid-row: 1;
+}
+.two {
+  grid-column: 4;
+  grid-row: 1;
+}
+.three {
+  grid-column: 2;
+  grid-row: 2;
+}
+.four {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.proj-img-wrapper {
+  width: 500px;
+  border-radius: 5px;
 }
 
 #portfolio img {
-  width: 60%;
+  width: 100%;
   height: auto;
+}
+
+img:hover {
+  cursor: pointer;
 }
