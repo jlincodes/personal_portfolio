@@ -3,6 +3,7 @@ body {
   margin: auto;
 }
 
+/* Nav Bar */
 
 .logo {
   font-family: 'Allura', cursive;
@@ -15,8 +16,37 @@ body {
   background-color: lavender;
 }
 
-.profile-img {
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: lightgrey;
+  height: 400px;
+}
+
+.header-text {
+  max-width: 50%;
+  color: white;
+}
+
+.desc-text {
+  font-size: 24px;
+}
+
+.titles {
+  font-size: 28px;
+}
+
+header hr {
+  border: 2px solid white;
+  width: 40%;
+  text-align: left;
+}
+
+.profile-img {
+  background-color: transparent;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -27,3 +57,5 @@ body {
   width: 100%;
   height: auto;
 }
+
+/* Portfolio */
