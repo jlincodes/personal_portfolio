@@ -8,6 +8,35 @@ section {
   text-align: center;
 }
 
+/* About me & portfolio sections */
+.checkerboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 50px;
+}
+
+.one {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.three {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.four {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+
 /* Nav Bar */
 
 nav {
@@ -94,33 +123,6 @@ header hr {
 .section-header hr {
   border: 2px solid rgba(28, 0, 99, 0.9);
   width: 50%;
-}
-
-.checkerboard {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  grid-gap: 50px;
-}
-
-.one {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.two {
-  grid-column: 3;
-  grid-row: 1;
-}
-
-.three {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.four {
-  grid-column: 3;
-  grid-row: 2;
 }
 
 .proj-img-wrapper {
