@@ -3,6 +3,10 @@ body {
   margin: auto;
 }
 
+.nav-bar, header, section {
+  /* width: 80%; */
+}
+
 /* Nav Bar */
 
 .logo {
@@ -41,8 +45,9 @@ header {
 
 header hr {
   border: 2px solid white;
-  width: 40%;
-  text-align: left;
+  width: 75%;
+  margin-left: 0;
+  /* text-align: left; */
 }
 
 .profile-img {
@@ -59,3 +64,34 @@ header hr {
 }
 
 /* Portfolio */
+
+.portfolio-header {
+  text-align: center;
+}
+
+.portfolio-header hr {
+  border: 2px solid lightgrey;
+  width: 50%;
+  /* text-align: left; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto)
+}
+
+.grid div {
+  text-align: center;
+}
+
+.checkerboard {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+#portfolio img {
+  width: 60%;
+  height: auto;
+}
