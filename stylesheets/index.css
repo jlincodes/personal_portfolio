@@ -164,7 +164,7 @@ ul {
   text-align: center;
 }
 
-p {
+#social p {
   margin: 25px 100px;
 }
 
@@ -266,7 +266,10 @@ footer {
   #social h2 {
     margin-top: 0;
   }
-  p, footer {
+  #social p {
+    margin: 25px;
+  }
+  footer {
     margin: 25px;
   }
 }
