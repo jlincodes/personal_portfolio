@@ -199,7 +199,7 @@ footer {
 }
 
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   header {
     flex-direction: column-reverse;
     padding-top: 50px;
@@ -223,7 +223,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   nav {
     margin: 20px 35px 20px 20px;
   }
