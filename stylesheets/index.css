@@ -82,7 +82,8 @@ header {
   justify-content: center;
   align-items: center;
   background: linear-gradient(to right, rgba(165, 165, 255, 0.6), rgba(44, 25, 255, 0.7));
-  height: 550px;
+  height: 500px;
+  padding-top: 50px;
 }
 
 .header-text {
@@ -202,7 +203,7 @@ footer {
 @media only screen and (max-width: 800px) {
   header {
     flex-direction: column-reverse;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .header-text {
     max-width: 90%;
@@ -250,6 +251,7 @@ footer {
   }
   header {
     height: 450px;
+    padding-top: 50px
   }
   .section-header {
     margin: 25px 0;
