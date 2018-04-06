@@ -9,6 +9,7 @@ section {
 }
 
 /* About me & portfolio sections */
+
 .checkerboard {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -38,6 +39,11 @@ section {
 
 .five {
   grid-column: 2;
+  grid-row: 3;
+}
+
+.six {
+  grid-column: 3;
   grid-row: 3;
 }
 
