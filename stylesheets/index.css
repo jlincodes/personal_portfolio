@@ -63,7 +63,7 @@ section {
   font-family: 'Allura', cursive;
   font-size: 48px;
   color: rgba(255,255,255,1);
-  margin: 15px 50px;
+  margin: 10px 50px;
 }
 
 nav {
@@ -80,6 +80,28 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.toggle-btn {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-bar, nav {
+    flex-direction: column;
+  }
+  nav {
+    display: none;
+  }
+  .toggle-btn {
+    display: initial;
+    align-self: flex-end;
+    position: absolute;
+    cursor: pointer;
+  }
+  .toggle-show {
+    display: flex;
+  }
 }
 
 /* Header */
