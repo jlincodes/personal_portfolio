@@ -49,8 +49,13 @@ section {
 
 /* Nav Bar */
 
-nav {
-  margin: auto 50px;
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(230, 230, 250, 0.6));
+  position: fixed;
   color: white;
 }
 
@@ -61,22 +66,19 @@ nav {
   margin: 15px 50px;
 }
 
-.nav-bar {
-  width: 100%;
+nav {
+  margin: auto 50px;
   display: flex;
-  justify-content: space-between;
-  background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(230, 230, 250, 0.8));
-  position: fixed;
 }
 
-.nav-bar a {
+nav a {
   text-decoration: none;
   color: rgba(255,255,255,1);
   padding: 10px;
   opacity: 0.8;
 }
 
-.nav-bar a:hover {
+nav a:hover {
   text-decoration: underline;
 }
 
