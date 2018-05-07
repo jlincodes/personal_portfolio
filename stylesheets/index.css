@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: auto;
-  background-color: rgba(225, 216, 255, 0.1);
+  background-color: rgba(230, 230, 255, 0.1);
+  color: rgba(0,0,0,1)
 }
 
 section {
@@ -47,6 +50,11 @@ section {
   grid-row: 3;
 }
 
+hr {
+  border: 2px solid;
+  width: 55%;
+}
+
 /* Nav Bar */
 
 
@@ -54,15 +62,13 @@ section {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(230, 230, 250, 0.6));
+  background: linear-gradient(to right, rgba(230, 230, 250, 0.6), rgba(166,166,237,1));
   position: fixed;
-  color: white;
 }
 
 .logo {
   font-family: 'Allura', cursive;
   font-size: 48px;
-  color: rgba(255,255,255,1);
   margin: 10px 50px;
 }
 
@@ -73,7 +79,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1);
   padding: 10px;
   opacity: 0.8;
 }
@@ -98,9 +104,11 @@ nav a:hover {
     align-self: flex-end;
     position: absolute;
     cursor: pointer;
+    margin: 25px -25px;
   }
   .toggle-show {
     display: flex;
+    align-items: flex-end;
   }
 }
 
@@ -110,14 +118,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, rgba(165, 165, 255, 0.6), rgba(44, 25, 255, 0.7));
+  background: linear-gradient(to right, rgba(230, 230, 250, 0.6), rgba(166,166,237,1));
   height: 500px;
   padding-top: 50px;
 }
 
 .header-text {
   max-width: 50%;
-  color: rgba(255,255,255,1);
 }
 
 .desc-text {
@@ -126,12 +133,6 @@ header {
 
 .titles {
   font-size: 28px;
-}
-
-header hr {
-  border: 2px solid rgba(255,255,255,1);
-  width: 55%;
-  margin-left: 0;
 }
 
 .profile-img {
@@ -163,10 +164,10 @@ ul {
   margin: 50px auto;
 }
 
-.section-header hr {
+/* .section-header hr {
   border: 2px solid rgba(28, 0, 99, 0.9);
   width: 50%;
-}
+} */
 
 .proj-img-wrapper {
   width: 450px;
@@ -228,7 +229,7 @@ ul {
 
 .fab, .fas {
   color: rgba(28, 0, 99, 0.9);
-  margin: 0 5px 0 5px;
+  margin: 0 5px;
 }
 
 footer {
